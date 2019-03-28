@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/shape"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="3"
+        android:textColor="#ffffff"
+        android:layout_marginTop="@dimen/chooseBtPadding"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/simple"
+        android:paddingLeft="@dimen/chooseBtPadding"
+        android:paddingRight="@dimen/chooseBtPadding"
+        android:background="@drawable/buttom_style"
+        android:text="@string/simple_text" />
+    <Button
+        android:layout_width="wrap_content"
+        android:tag="4"
+        android:textColor="#ffffff"
+        android:paddingLeft="@dimen/chooseBtPadding"
+        android:paddingRight="@dimen/chooseBtPadding"
+        android:id="@+id/normal_"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/buttom_style"
+        android:text="@string/normal_text"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="@string/complex_text"
+        android:tag="5"
+        android:textColor="#ffffff"
+        android:paddingLeft="@dimen/chooseBtPadding"
+        android:paddingRight="@dimen/chooseBtPadding"
+        android:layout_marginBottom="@dimen/chooseBtPadding"
+        android:background="@drawable/buttom_style"
+        android:id="@+id/complex"
+        android:layout_height="wrap_content" />
+</LinearLayout>

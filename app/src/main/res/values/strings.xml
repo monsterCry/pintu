@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pintu</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="simple_text">简 单</string>
+    <string name="normal_text">一 般</string>
+    <string name="complex_text">复 杂</string>
+</resources>
